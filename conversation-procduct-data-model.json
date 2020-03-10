@@ -1,0 +1,90 @@
+{
+    "conversation_details": [
+      {
+      "conversation_id": "con-100",
+      "conversation_created_time": "2019-06-29T09:05:06+0000",
+      "conversation_modified_time": "2019-06-29T09:05:06+0000",
+      "conversation_title": "Testing Ansana conversation, funtionality!",
+      "conversation_message": "Testing Ansana conversation, funtionality!",
+      "conversation_link": "https://TestingAnsanaconversation,funtionality!",
+      "conversation_active": true,
+      "from": {
+        "user_name": "Fernando Caldera",
+        "user_id": "user100",
+        "user_image_url": "https://FernandoCalderaImg"
+      },
+      "like_count": 1,
+
+      "like_details":[{
+        "like_id": "con-like-1",
+        "like-time": "2020-06-29T09:05:06+0000",
+        "from": {
+          "user_name": "Soorya",
+          "user_id": "user101",
+          "user_image_url": "https://SooryaImg"
+        }
+      }
+      ],
+
+      "comment_count": 1,
+      "comment_details": [{
+        "comment_id": "con-comm-1",
+        "comment_time": "2020-06-29T09:05:06+0000",
+        "comment_message": "This is only a test",
+        "from":{
+          "user_name": "Fernando Caldera",
+          "user_id": "user100",
+          "user_image_url": "https://FernandoCalderaImg"
+        },
+      
+        "comment_like_count": 1,
+        "comment_like_details":[{
+          "comment_like_id": "con-like-1",
+          "comment_like-time": "2020-06-29T09:05:06+0000",
+          "from": {
+           "user_name": "Mike",
+            "user_id": "user102",
+            "user_image_url": "https://MikeImg"
+          }
+        }]
+      }],
+
+      "conversation_collobrators_count": 2,
+      "collaborators_details": [{
+        "collaborator_id": "con-like-1",
+        "created_time": "2020-06-29T09:05:06+0000",
+        "modified_time": "2020-06-29T09:05:06+0000",
+        "from": {
+          "user_name": "abcd",
+          "user_id": "123",
+          "user_image_url": "https://abcdImg"
+        }
+      },
+      {
+        "collaborator_id": "con-like-2",
+        "created_time": "2020-06-29T09:05:06+0000",
+        "modified_time": "2020-06-29T09:05:06+0000",
+        "from": {
+          "user_name": "Fernando Caldera",
+          "user_id": "user100",
+          "user_image_url": "https://FernandoCalderaImg"
+        }
+      }],
+    
+      "conversation_left_details": [{
+        "user_details":[{
+          "user_name": "Fernando Caldera",
+          "user_id": "user100",
+          "time": "2020-06-29T09:05:06+0000",
+          "user_image_url": "https://FernandoCalderaImg"
+        },
+        {
+          "user_name": "Soorya",
+          "user_id": "user101",
+          "time": "2020-06-29T09:05:06+0000",
+          "user_image_url": "https://SooryaImg"
+        }]
+      }]
+      }
+    ]
+}
